@@ -4,19 +4,14 @@
 # Python ML libraries.
  # 1. scikit-learn
 
-    Description: The fundamental library for classical machine learning in Python. It's built on NumPy and SciPy and provides
-    simple and efficient tools for data mining and data analysis. It's the go-to library for most "traditional" ML tasks that don't involve deep learning.
-    Best for: Getting started, prototyping, and implementing standard ML algorithms. It has a incredibly consistent and user-friendly API.
+    Description: The fundamental library for classical machine learning in Python. It's built on NumPy and SciPy and providessimple and efficient tools for data mining and data analysis. It's the go-to library      for most "traditional" ML tasks that don't involve deep learning.   Best for: Getting started, prototyping, and implementing standard ML algorithms. It has a incredibly consistent and user-friendly API.
     Key Algorithms: Classification, Regression, Clustering, Dimensionality Reduction (PCA), Model Selection, Preprocessing.
 
     Website: https://scikit-learn.org/
 
 # 2. NumPy
 
-    Description: The foundational package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, 
-    along with a massive collection of mathematical functions to operate on these arrays. Almost every other ML library uses NumPy arrays under the hood.
-    Best for: Any numerical computation. You can't do ML without it.
-    Key Feature: N-dimensional array object.
+    Description: The foundational package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a massive collection of mathematical functions to       operate on these arrays. Almost every other ML library uses NumPy arrays under the hood.  Best for: Any numerical computation. You can't do ML without it.  Key Feature: N-dimensional array object.
 
     Website: https://numpy.org/
 
