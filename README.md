@@ -3,9 +3,6 @@
 
 # Python ML libraries.
  # 1. scikit-learn
-
- 1. scikit-learn
-
     Description: The fundamental library for classical machine learning in Python. It's built on NumPy and SciPy and provides simple and efficient tools for data mining and data analysis. It's the go-to library for most "traditional" ML tasks that don't involve deep learning.
 
     Best for: Getting started, prototyping, and implementing standard ML algorithms. It has a incredibly consistent and user-friendly API.
@@ -16,46 +13,46 @@
 
 # 2. NumPy
 
-    Description: The foundational package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a massive collection of mathematical functions to       operate on these arrays. Almost every other ML library uses NumPy arrays under the hood.  Best for: Any numerical computation. You can't do ML without it.  Key Feature: N-dimensional array object.
+   Description: The foundational package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a massive collection of mathematical functions to operate on these arrays. Almost every other ML library uses NumPy arrays under the hood.
+
+Best for: Any numerical computation. You can't do ML without it.
+
+Key Feature: N-dimensional array object.
 
     Website: https://numpy.org/
 
 # 3. pandas
 
-    Description: Provides high-performance, easy-to-use data structures (DataFrames and Series) and data analysis tools.
-    It's the essential tool for data manipulation, cleaning, and wrangling before you even think about training a model.
-    Best for: Loading, cleaning, transforming, and exploring structured data from CSVs, Excel, databases, etc.
-    Key Feature: DataFrame object.
+    Description: Provides high-performance, easy-to-use data structures (DataFrames and Series) and data analysis tools. It's the essential tool for data manipulation, cleaning, and wrangling before you even think about training a model.
+
+Best for: Loading, cleaning, transforming, and exploring structured data from CSVs, Excel, databases, etc.
+
+Key Feature: DataFrame object.
 
     Website: https://pandas.pydata.org/
 
 # 5. Matplotlib & Seaborn
 
-    Description: Matplotlib is the primary plotting library for Python, offering immense flexibility for creating static, animated,
-    and interactive visualizations. Seaborn is built on top of Matplotlib and provides a high-level interface for drawing attractive and informative statistical graphics.
-    Best for: Data visualization. Matplotlib for custom plots, Seaborn for beautiful statistical plots with less code.
-    Website: Matplotlib, Seaborn
+   Description: Matplotlib is the primary plotting library for Python, offering immense flexibility for creating static, animated, and interactive visualizations. Seaborn is built on top of Matplotlib and provides a high-level interface for drawing attractive and informative statistical graphics.
 
-   Deep Learning Frameworks
-
-   These are used for building and training neural networks, which power modern AI applications like image recognition and natural language processing.
+Best for: Data visualization. Matplotlib for custom plots, Seaborn for beautiful statistical plots with less code.
 # 7. TensorFlow (with Keras)
 
-    Description: A powerful end-to-end open-source platform for machine learning, developed by Google.
-    Its high-level API is Keras, which provides a simple and intuitive interface for building and training neural networks.
-    TensorFlow is highly scalable and can deploy models anywhere from a smartphone to a large data center.
-    Best for: Production-grade deep learning, research, and complex model deployment. The standard way to use it is from tensorflow import keras.
-    Key Features: Flexibility, extensive deployment options (TF Lite, TF.js), production-ready.
+    Description: A powerful end-to-end open-source platform for machine learning, developed by Google. Its high-level API is Keras, which provides a simple and intuitive interface for building and training neural networks. TensorFlow is highly scalable and can deploy models anywhere from a smartphone to a large data center.
+
+Best for: Production-grade deep learning, research, and complex model deployment. The standard way to use it is from tensorflow import keras.
+
+Key Features: Flexibility, extensive deployment options (TF Lite, TF.js), production-ready.
 
     Website: https://www.tensorflow.org
 
  # 9. PyTorch
 
-    Description: An open-source deep learning framework developed by Facebook's AI Research lab (FAIR).
-   It's known for its pythonic nature, flexibility, and dynamic computation graph ("define-by-run"),
-    which makes it very intuitive to debug and experiment with. It's extremely popular in academic research.
-    Best for: Research, prototyping new neural network architectures, and applications requiring maximum flexibility.
-    Key Features: Dynamic computation graphs, excellent debugging capabilities, strong community in research.
+   Description: An open-source deep learning framework developed by Facebook's AI Research lab (FAIR). It's known for its pythonic nature, flexibility, and dynamic computation graph ("define-by-run"), which makes it very intuitive to debug and experiment with. It's extremely popular in academic research.
+
+Best for: Research, prototyping new neural network architectures, and applications requiring maximum flexibility.
+
+Key Features: Dynamic computation graphs, excellent debugging capabilities, strong community in research.
 
     Website: https://pytorch.org
 
@@ -63,32 +60,33 @@
    
 # 8. XGBoost / LightGBM / CatBoost
 
-    Description: These are highly optimized libraries that implement gradient boosting algorithms.
-    They are consistently the winning algorithms for structured/tabular data competitions on platforms like Kaggle. They often outperform deep learning on traditional dataset problems.
-    Best for: Winning Kaggle competitions and achieving state-of-the-art performance on tabular data for classification and regression.
-    Website: XGBoost, LightGBM, CatBoost
+   Description: These are highly optimized libraries that implement gradient boosting algorithms. They are consistently the winning algorithms for structured/tabular data competitions on platforms like Kaggle. They often outperform deep learning on traditional dataset problems.
+
+Best for: Winning Kaggle competitions and achieving state-of-the-art performance on tabular data for classification and regression.
 
 # 9. OpenCV
 
-    Description: The premier library for computer vision. While written in C++, it has a full Python interface.
-    It provides tools for image and video processing, object detection, facial recognition, and more.
-    Best for: Any task that involves working with images or video.
+    Description: The premier library for computer vision. While written in C++, it has a full Python interface. It provides tools for image and video processing, object detection, facial recognition, and more.
+
+Best for: Any task that involves working with images or video.
 
     Website: https://opencv.org
 
 # 10. NLTK & spaCy
 
-    Description: Libraries for Natural Language Processing (NLP).NLTK: The classic academic toolkit for NLP.
-     Excellent for learning and teaching the concepts of NLP.
+   Description: Libraries for Natural Language Processing (NLP).
+
+    NLTK: The classic academic toolkit for NLP. Excellent for learning and teaching the concepts of NLP.
+
     spaCy: A modern, industrial-strength library for NLP. It's designed to be fast and efficient for building real-world applications and pipelines.
-    Best for: NLTK for education, spaCy for building production NLP systems.
-    Website: NLTK, spaCy
+
+Best for: NLTK for education, spaCy for building production NLP systems.
 
 # 12. Hugging Face Transformers
 
-    Description: A revolutionary library that provides thousands of pre-trained state-of-the-art models (like BERT, GPT) 
-    for NLP tasks such as text classification, question answering, and text generation. It has dramatically lowered the barrier to using cutting-edge models.
-    Best for: Any modern Natural Language Processing task.
+   Description: A revolutionary library that provides thousands of pre-trained state-of-the-art models (like BERT, GPT) for NLP tasks such as text classification, question answering, and text generation. It has dramatically lowered the barrier to using cutting-edge models.
+
+Best for: Any modern Natural Language Processing task.
 
     Website: https://huggingface.co/docs/transformers
 
